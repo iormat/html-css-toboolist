@@ -8,10 +8,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
-main, nav{
+main, nav, section, p{
     width: 70%;
     margin: auto;
     background-color: #fff;
+}
+
+section p .entity{
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+p.item {
+    margin: 15px 0 15px 0;
+}
+
+.checked.item img, .crossed.item img {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
 }
 
 /* modifiche header  */
@@ -46,7 +63,11 @@ nav {
     margin: auto;
     height: 70px;
     line-height: 55px;
+    border-radius: 10px 0 0 0;
+}
+nav::after {
     border-bottom: 2px solid rgb(247, 248, 249);
+    
 }
 
 nav button{
@@ -70,4 +91,56 @@ button.tasks {
 button.sections {
     background-color: #fff;
     color: #cecece;
+}
+
+/* modifiche section "new tasks" */
+
+main section {
+    width: 85%;
+    margin: auto;
+    
+}
+
+section h2 {
+    display: inline-block;
+    margin: 30px 0 20px 0;
+}
+
+section p{
+    font-size: 20px;
+    marrgin-bottom: 30px;
+}
+
+
+
+/* modifiche specifiche appuntamenti */
+
+section p span {
+    border-radius: 10px;
+    padding: 8px;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+span.editorial {
+    background-color: rgb(100, 170, 235);
+}
+
+span.recruiting {
+    background-color: rgb(124, 190, 170);
+}
+
+span.qgoals {
+    background-color: rgb(150, 116, 221);
+
+}
+ span.mobile {
+    background-color: rgb(230, 162, 75);  
+ }
+span.website {
+    background-color: rgb(202, 106, 158);      
+}
+span.sales {
+    background-color: rgb(181, 200, 73);          
 }
