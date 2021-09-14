@@ -1,17 +1,27 @@
 /* modifiche generali */
-
 * {
-    background-color: rgb(247, 248, 249);
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(247, 248, 249);
+    padding-bottom: 30px;
+}
+
+main {
+    border-radius: 10px;
+}
+
+header, main {
+    background-color: #fff;
 }
 
 header, main, nav, section, p, h1{
     width: 70%;
     margin: auto;
-    background-color: #fff;
 }
 
 p.item {
@@ -25,7 +35,6 @@ p.item {
 }
 
 /* modifiche header  */
-
 header {
     width: 100%;
     margin-bottom: 100px;
@@ -49,13 +58,14 @@ header h1 {
 }
 
 /* modifiche main > nav */
+div.nav_border {
+    border-radius: 5px;
+}
 
 nav {
-    /* width: 85%; */
-    margin: auto;
-    height: 70px;
-    line-height: 55px;
-    border-radius: 10px 0 0 0;
+    width: 100%;
+    height: 80px;
+    line-height: 65px;
     border-bottom: 5px solid rgb(247, 248, 249);
 }
 
@@ -72,6 +82,10 @@ nav button{
     vertical-align: middle;
 }
 
+button:first-child {
+    margin-left: 10%;
+}
+
 button.tasks {
     background-color: rgb(100, 170, 235);
     color: #fff;
@@ -83,11 +97,9 @@ button.sections {
 }
 
 /* modifiche section */
-
 main section {
-    /* width: 85%; */
-    margin: auto;
-    
+    width: 80%;
+    margin: auto;    
 }
 
 section h2 {
@@ -97,13 +109,10 @@ section h2 {
 
 section p{
     font-size: 20px;
-    marrgin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-
-
 /* modifiche specifiche appuntamenti */
-
 section p span {
     border-radius: 10px;
     padding: 8px;
