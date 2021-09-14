@@ -1,6 +1,38 @@
+/* modifiche generali */
+
 * {
     background-color: rgb(247, 248, 249);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 80%;
+    background-color: #fff;
+}
+
+/* modifiche header  */
+
+header {
+    background-color: #fff;
+    width: 100%;
+}
+
+.logo.top, header h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo.top img {
+    height: 70px;
+    line-height: 70px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 700;
 }
