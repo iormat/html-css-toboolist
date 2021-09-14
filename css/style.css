@@ -8,17 +8,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-main, nav, section, p{
+header, main, nav, section, p, h1{
     width: 70%;
     margin: auto;
     background-color: #fff;
-}
-
-section p .entity{
-    text-align: center;
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 50%;
 }
 
 p.item {
@@ -34,7 +27,6 @@ p.item {
 /* modifiche header  */
 
 header {
-    background-color: #fff;
     width: 100%;
     margin-bottom: 100px;
 }
@@ -59,15 +51,12 @@ header h1 {
 /* modifiche main > nav */
 
 nav {
-    width: 85%;
+    /* width: 85%; */
     margin: auto;
     height: 70px;
     line-height: 55px;
     border-radius: 10px 0 0 0;
-}
-nav::after {
-    border-bottom: 2px solid rgb(247, 248, 249);
-    
+    border-bottom: 5px solid rgb(247, 248, 249);
 }
 
 nav button{
@@ -93,10 +82,10 @@ button.sections {
     color: #cecece;
 }
 
-/* modifiche section "new tasks" */
+/* modifiche section */
 
 main section {
-    width: 85%;
+    /* width: 85%; */
     margin: auto;
     
 }
@@ -122,18 +111,14 @@ section p span {
     font-size: 13px;
     margin-left: 10px;
 }
-
 span.editorial {
     background-color: rgb(100, 170, 235);
 }
-
 span.recruiting {
     background-color: rgb(124, 190, 170);
 }
-
 span.qgoals {
     background-color: rgb(150, 116, 221);
-
 }
  span.mobile {
     background-color: rgb(230, 162, 75);  
